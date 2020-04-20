@@ -16,6 +16,24 @@
     id: 3,
     name: "jollof Rice",
     image: "https://demandafrica-4741.kxcdn.com/wp-content/uploads/2018/06/Nigerian-jollof.jpeg",
-    price: ""
+    price: "1500"
+},
+{
+    id:4,
+    name:"spaghetti bolognese",
+    price: 2000
+},
+
+{
+    id: 5,
+    name: "spagetti cabonara",
+    price: 3000
+},
+
+{
+    id:6,
+    name: "meat pie",
+    price: 250
 }
+
 ]

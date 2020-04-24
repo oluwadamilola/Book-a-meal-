@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components'
 import {Button, Nav} from '../styles/style'
 
- const Header = () => {
+ const Header = (props) => {
     return (
         <Nav>
-           <Button primary> Sign In</Button>
+           <Button primary onClick="{props.Signin}">  Sign In</Button>
            <Button>Register</Button>
         </Nav>
     )

@@ -14,3 +14,20 @@ background-color:pink;
   border: 2px solid palevioletred;
   border-radius: 3px;
 `
+export const foodImage = styled.div `
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    margin: 5px;
+  }
+  .CardStyle  img {
+    margin-right: 3%;
+    margin-bottom: 1.5em;
+  }
+  .data-loading {
+    display: flex;
+    justify-content: center;
+  }
+`

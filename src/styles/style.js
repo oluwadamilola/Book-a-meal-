@@ -31,3 +31,35 @@ export const foodImage = styled.div `
     justify-content: center;
   }
 `
+export const Navstyled = styled.nav `
+.navbar{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    box-shadow: #476a2e;
+    }
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    align-items: left;
+}
+.nav-links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    transition: var(--mainTransition);
+}
+.nav-links a:hover {
+    color: #476a2e;
+}
+`

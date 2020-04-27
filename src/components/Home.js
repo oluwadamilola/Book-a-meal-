@@ -11,4 +11,6 @@ import Food from '../components/Food'
         </div>
     )
 }
+
+
 export default Home;

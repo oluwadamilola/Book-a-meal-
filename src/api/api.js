@@ -3,7 +3,7 @@
     {
         id: 1,
         name:"Ham burger",
-        image: "https://assets3.thrillist.com/v1/image/2843128/size/gn-gift_guide_variable_c.jpg",
+        image: "https://media4.picsearch.com/is?heJepwbCJUrj6J4HW77wWDt2l2MhdX3V7fp9EtPlwBE&height=320",
         price: 3000
     },
     {
@@ -21,13 +21,15 @@
 {
     id:4,
     name:"spaghetti bolognese",
-    price: 2000
+    price: 2000,
+    image: "https://media1.picsearch.com/is?83byQNLqfIXUR8WjrvUovq-DOlnMxCY8h7SGe1rXajY&height=191"
 },
 
 {
     id: 5,
     name: "spagetti cabonara",
-    price: 3000
+    price: 3000,
+    image: "https://media5.picsearch.com/is?Vzirqt_sytFxCQXYibFmRHgQgWrjuTFP0946-Pa3ngc&height=341"
 },
 
 {

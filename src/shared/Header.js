@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Navstyled} from '../styles/style';
+import {Navstyled, ListItem} from '../styles/style';
+import { Link}  from "react-router-dom"
 
 export const Nav = styled.nav `
  height: 5rem;
@@ -13,10 +14,11 @@ export const ListItem = styled.li `
 font-size: 20px;
     list-style-type: none
 `
- const Header = (props) => {
+ const Header = () => {
     return (
         <Navstyled>
       <Nav className="navbar">
+
         <div className="nav">
           <ul className=" nav-links">
             <ListItem>

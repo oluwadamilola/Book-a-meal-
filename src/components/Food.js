@@ -16,12 +16,15 @@ const CardStyle = styled.div `
 
 const Food = () => {
   return food.map(item => (
-
+    <>
     <CardStyle key={item.id}>
       <img src={item.image} alt="food image" />
       <h3>{item.price}</h3>
       <p>{item.name}</p>
     </CardStyle>
+    <h1>Giveaway Items</h1>
+    </>
   ));
+  
 };
 export default Food;

@@ -25,6 +25,7 @@ export const foodImage = styled.div `
   .CardStyle  img {
     margin-right: 3%;
     margin-bottom: 1.5em;
+    display: inline
   }
   .data-loading {
     display: flex;
@@ -62,4 +63,9 @@ export const Navstyled = styled.nav `
 .nav-links a:hover {
     color: #476a2e;
 }
+`
+
+export const ListItem = styled.li `
+font-size: 20px;
+    list-style-type: none
 `

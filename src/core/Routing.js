@@ -6,7 +6,7 @@ const routes = [
     {
         path: "/signin", component: Signin
        
-    },
+    }
     
 ];
 export default routes

@@ -36,6 +36,13 @@
     id:6,
     name: "meat pie",
     price: 250
+},
+
+{
+    id: 7,
+    name: "iphone 11",
+    price: 38000,
+    image: "https://media2.picsearch.com/is?F9GH_-7fblWxdWzZpzIUF7wvGUL7Q7qJnuMSmIkJCjQ&height=240"
 }
 
 ]
